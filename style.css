@@ -1,0 +1,583 @@
+/* ----------------------------- Design System ----------------------------- */
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.btn {border: none; padding: 16px 24px; border-radius: 30px; font-weight: 600; font-size: 1rem; background-color: transparent; letter-spacing: 0.5px;}
+h1 {color: #343538; font-size: 2.75rem; font-weight: 500; letter-spacing: 0.5px;}
+h2 {color: #343538; font-size: 1.75rem; font-weight: 400;}
+h3 {color: #343538; font-size: 1.25; font-weight: 500;}
+h4 {color: #343538; font-size: 2rem; font-weight: 500;}
+span {color: #343538; font-size: 0.885rem; font-weight: 400; letter-spacing: 0.4px;}
+li {list-style: none;}
+/* ----------------------------- Design System End ----------------------------- */
+
+/* ----------------------------- Navbar ----------------------------- */
+
+.logo-menu-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logo-menu-wrapper i {
+    font-size: 22px;
+    color: #242424;
+}
+
+.logo-menu-wrapper .logo {
+    height: 24px;
+}
+
+.signup-btn {
+    background-color: #0AAD0A;
+    color: #fff;
+}
+
+nav {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ----------------------------- Hero ----------------------------- */
+
+.hero-image {
+    position: absolute;
+    z-index: -9;
+    background-color: #DEEDD6;
+    background-image: url('hero.jpeg');
+    min-height: 44vh;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero-content-wrapper {
+    padding: 40px;
+}
+
+.language-wrapper {
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+}
+
+.flag-icon-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: url('united-states.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.language-wrapper i {
+    color: #b1b1b1;
+    font-size: 14px;
+}
+
+.detail-container {
+    padding: 32px 100px;
+}
+
+.detail-container h1 {
+    width: 560px;
+    margin-bottom: 1rem;
+}
+
+.search-bar {
+    margin: 1.3rem 0;
+}
+
+.search {
+    width: 400px;
+    background-color: #fff;
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 1.15rem;
+    border-radius: 10px;
+    border: none;
+}
+
+/* ----------------------------- Store Section ----------------------------- */
+.store-wrapper{
+    margin: 40px auto;
+    max-width: 1180px;
+    padding: 20px 40px;
+}
+
+.store-wrapper h2{
+    text-align: center;
+}
+
+.store-container {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(344px, 3fr));
+    gap: 32px;
+    justify-content: center;
+}
+
+.store {
+    gap: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.16) 0px 2px 8px;
+}
+
+.sprouts-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('sprout.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.foodsco-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('foodsco.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.container-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('containerstore.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.grocery-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('groceryoutlet.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.dollartree-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('dollartree.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.seveneleven-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('seveneleven.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.costco-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('costo.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.safeway-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('safeway.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.target-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('target.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.sephora-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('sephora.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.bestbuy-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('bestbuy.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.wine-farmer-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('wine.webp');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.delivery-info {
+    display: flex;
+    margin-top: 4px;
+}
+
+.delivery-info a {
+    color: #0AAD0A;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.delivery-info i {
+    margin-right: 0.5rem;
+}
+
+.pickup-wrapper {
+    margin-left: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.style-dot {
+    height: 4px;
+    width: 4px;
+    background-color: #242424;
+    border-radius: 50%;
+}
+
+.delivery-info span {
+    font-size: 13px;
+    color: #242424;
+    font-weight: 500;
+}
+
+.store-wrapper h4 {
+    text-align: center;
+    color: #0AAD0A;
+    font-size: 16px;
+}
+
+/* ----------------------------- Grocery Section ----------------------------- */
+.grocery-wrapper {
+    text-align: center;
+}
+
+.grocery-container-grid {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.grand-grocery-card-container {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.grocery-card {
+    gap: 2rem;
+    border-radius: 12px 12px 0 0;
+    background-color: #F6F7F8;
+    text-align: left;
+    flex-direction: column;
+    display: inline-flex;
+    padding: 2rem;
+    min-width: 360px;
+}
+
+.grocery-card h4 {
+    width: 260px;
+}
+
+.grocery-card span {
+    line-height: 134%;
+    width: 260px;
+    letter-spacing: 0.6px;
+    font-size: 1rem;
+}
+
+.grocery-img .choose-img {
+    background-image: url('choose.webp');
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 0 0 12px 12px;
+    background-size: cover;
+}
+
+.grocery-img .update-img {
+    background-image: url('update.webp');
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 0 0 12px 12px;
+    background-size: cover;
+}
+
+.grocery-img .item-img {
+    background-image: url('time.webp');
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 0 0 12px 12px;
+    background-size: cover;
+}
+
+.start-shopping {
+    background-color: #0AAD0A;
+    color: #fff;
+    border-radius: 12px;
+    padding: 16px 116px;
+}
+
+/* ----------------------------- Service Section ----------------------------- */
+.service-wrapper {
+    margin: 40px;
+}
+
+.service-wrapper h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cover-photo {
+    background-image: url('cover.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1160px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.box-wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.box {
+    margin: 20px 0;
+    gap: 1rem;
+    border-radius: 12px;
+    background-color: #F6F7F8;
+    text-align: left;
+    flex-direction: column;
+    display: inline-flex;
+    padding: 2rem;
+    max-width: 290px;
+}
+
+.box h4 {
+    width: 160px;
+}
+
+.box span {
+    font-weight: 300;
+    line-height: 134%;
+    width: 210px;
+    letter-spacing: 0.6px;
+    font-size: 1.5rem;
+}
+
+/* ----------------------------- Common Question Section ----------------------------- */
+.question-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questions h2 {
+    text-align: center;
+}
+
+.questions-list {
+    text-align: left;
+    align-items: left;
+    font-weight: 100;
+}
+
+.question-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 950px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.question-container button {
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    color: #424242;
+    padding: 32px 0;
+    font-weight: 100;
+}
+
+/* ----------------------------- Footer 1 Section ----------------------------- */
+.footer1 {
+    padding: 0 400px;
+    margin: 100px auto 40px;
+}
+
+.footer-content-wrapper {
+    padding: 18px 0;
+    border-top: 1px solid #d3d3d3;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer1-logo-wrapper {
+    width: 380px;
+}
+
+.small-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+}
+
+.ios-container {
+    margin: 10px 0 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.playstore-container {
+    margin: 10px 0 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.app-container p {
+    font-weight: 500;
+}
+
+.footer-instacart h3 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer-instacart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer1-wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.shopper-row {
+    gap: 3.4rem;
+}
+
+.accessibility-grand {
+    justify-content: flex-start;
+    gap: 19.2rem;
+}
+
+.accessibility-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.accessibility-container {
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 36px;
+    width: 64px;
+    background-color: #C7C8CD;
+    border-radius: 20px;
+}
+
+.cross-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 28px;
+    width: 28px;
+    border-radius: 30px;
+}
+
+.cross-icon i {
+   color: #C7C8CD;
+}
+
+.policy-container {
+    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-weight: 14px;
+}
+
+.social-container {
+    color: #424242;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.policy-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.policy-grand {
+    margin-bottom: 5px;
+}
+
+.trademark-text {
+    font-size: 11px;
+    color: #6d6d6d;
+    letter-spacing: 0.7px;
+}
