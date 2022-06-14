@@ -1,2 +1,2 @@
 # Instacart-Clone
-https://shaheerinayatali.github.io/Instacart-Clone/
+https://shaheereminent.github.io/Instacart-NonResponsive/
